@@ -3,6 +3,11 @@ To install the required packages using pip, run the following commands in your t
 pip install matplotlib
 pip install prettytable
 ```
+
+To run the file in your terminal or command prompt:
+```bash
+py FrequencyResponse.py
+```
 <details>
   <summary>Magnitude Response</summary>
   
