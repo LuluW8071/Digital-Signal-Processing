@@ -40,11 +40,11 @@ x2 = 1.29
 x3 = 0.34
 x4 = 0.34
 ```
-
+</br>
 <p align="center">
   <img src="image/image1.png" alt="Magnitude Response" >
-  <img src="image/image2.png" alt="Magnitude Response" >
-  <img src="image/image3.png" alt="Magnitude Response" >
+  <img src="image/image2.png" alt="Magnitude Response" width="45%" height="45%">
+  <img src="image/image3.png" alt="Magnitude Response" width="45%" height="45%">
 </p>
 </details>
 
