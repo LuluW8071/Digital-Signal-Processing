@@ -34,22 +34,19 @@ phase = tan⁻¹((r₁sin(w-x₁))/(1-r₁cos(w-x₁))) +
   <summary>Example</summary>
   
 ```
-# Values of magnitude r1, r2, r3, r4 and angles x1, x2, x3, x4 
-r1 = 2.14
-r2 = 2.14
-r3 = 0.477
-r4 = 0.477
+# Change values of magnitude r1, r2, r3, r4 and radian angles x1, x2, x3, x4 
+#Zeroes magnitude and angle
+r1 = r2 = 2.14
+x1 = x2 = 1.29
 
-x1 = 1.29
-x2 = 1.29
-x3 = 0.34
-x4 = 0.34
+#Poles magnitude and angle
+r3 = r4 = 0.477
+x3 = x4 = 0.34
 ```
 </br>
 <p align="center">
-  <img src="image/image1.png" alt="Magnitude Response" >
-  <img src="image/image2.png" alt="Magnitude Response" width="45%" height="45%">
-  <img src="image/image3.png" alt="Magnitude Response" width="45%" height="45%">
+  <img src="image/screenshot1.png" alt="Magnitude Response" >
+  <img src="image/screenshot2.png" alt="Magnitude Response" >
 </p>
 </details>
 
