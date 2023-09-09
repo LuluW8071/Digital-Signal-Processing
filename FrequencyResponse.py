@@ -15,9 +15,9 @@ def calculate_magnitude(x1, x2, x3, x4, r1, r2, r3, r4, w):
 def calculate_phase(x1, x2, x3, x4, r1, r2, r3, r4, w):
     phase = (
         math.atan2(r1 * math.sin(w - x1), 1 - r1 * math.cos(w - x1)) +
-        math.atan2(r2 * math.sin(w - x2), 1 - r2 * math.cos(w - x2)) -
+        math.atan2(r2 * math.sin(w + x2), 1 - r2 * math.cos(w + x2)) -
         math.atan2(r3 * math.sin(w - x3), 1 - r3 * math.cos(w - x3)) -
-        math.atan2(r4 * math.sin(w - x4), 1 - r4 * math.cos(w - x4))
+        math.atan2(r4 * math.sin(w + x4), 1 - r4 * math.cos(w + x4))
     )
     return phase
 
