@@ -24,9 +24,9 @@ py FrequencyResponse.py
   
 ```
 phase = tan⁻¹((r₁sin(w-x₁))/(1-r₁cos(w-x₁))) +
-        tan⁻¹((r₂sin(w-x₂))/(1-r₂cos(w-x₂))) -
+        tan⁻¹((r₂sin(w+x₂))/(1-r₂cos(w+x₂))) -
         tan⁻¹((r₃sin(w-x₃))/(1-r₃cos(w-x₃))) -
-        tan⁻¹((r₄sin(w-x₄))/(1-r₄cos(w-x₄)))
+        tan⁻¹((r₄sin(w+x₄))/(1-r₄cos(w+x₄)))
 ```
 </details>
 </br>
@@ -35,11 +35,11 @@ phase = tan⁻¹((r₁sin(w-x₁))/(1-r₁cos(w-x₁))) +
   
 ```
 # Change values of magnitude r1, r2, r3, r4 and radian angles x1, x2, x3, x4 
-#Zeroes magnitude and angle
+# Zeroes magnitude and angle
 r1 = r2 = 2.14
 x1 = x2 = 1.29
 
-#Poles magnitude and angle
+# Poles magnitude and angle
 r3 = r4 = 0.477
 x3 = x4 = 0.34
 ```
